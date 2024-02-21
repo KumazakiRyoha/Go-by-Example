@@ -7,7 +7,7 @@ import (
 	"os"
 )
 
-func check(e error) {
+func check1(e error) {
 	if e != nil {
 		panic(e)
 	}
